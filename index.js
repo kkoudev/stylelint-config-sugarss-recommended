@@ -11,7 +11,7 @@ module.exports = {
     "color-no-invalid-hex": true,
 
     // Font family
-    "font-family-name-quotes": "always-where-required",
+    "font-family-name-quotes": "always-unless-keyword",
     "font-family-no-duplicate-names": null,
 
     // Font weight
