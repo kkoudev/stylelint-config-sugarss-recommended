@@ -1,6 +1,6 @@
 {
   "name": "stylelint-config-sugarss-recommended",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "Recommended shareable config of SugarSS for stylelint",
   "keywords": [
     "stylelint",
