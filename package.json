@@ -1,6 +1,6 @@
 {
   "name": "stylelint-config-sugarss-recommended",
-  "version": "1.1.0",
+  "version": "1.2.0",
   "description": "Recommended shareable config of SugarSS for stylelint",
   "keywords": [
     "stylelint",
@@ -19,18 +19,18 @@
     "index.js"
   ],
   "devDependencies": {
-    "eslint": "^4.18.1",
+    "eslint": "^5.5.0",
     "eslint-config-stylelint": "^8.1.0",
-    "jest": "^22.4.2",
-    "npm-run-all": "^4.1.2",
-    "npmpub": "^3.1.0",
+    "jest": "^23.5.0",
+    "npm-run-all": "^4.1.3",
+    "npmpub": "^4.1.0",
     "remark-cli": "^5.0.0",
-    "remark-preset-lint-consistent": "^2.0.0",
-    "remark-preset-lint-recommended": "^3.0.0",
-    "stylelint": "^9.1.1"
+    "remark-preset-lint-consistent": "^2.0.2",
+    "remark-preset-lint-recommended": "^3.0.2",
+    "stylelint": "^9.5.0"
   },
   "peerDependencies": {
-    "stylelint": "^9.0.0"
+    "stylelint": "^9.5.0"
   },
   "scripts": {
     "dry-release": "npmpub --dry --verbose",
