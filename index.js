@@ -57,7 +57,12 @@ module.exports = {
     // Unit
     "unit-blacklist": null,
     "unit-case": "lower",
-    "unit-no-unknown": true,
+    "unit-no-unknown": [
+      true,
+      {
+        "ignoreFunctions": ["image-set"]
+      }
+    ],
     "unit-whitelist": null,
 
     // Value

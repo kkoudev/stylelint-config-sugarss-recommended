@@ -1,3 +1,9 @@
+# 1.3.0 (2019-01-04)
+
+### Changed
+
+-   Fix "no-unknown-unit" rules. (add "image-set" in "ignoreFunctions")
+
 # 1.2.0 (2018-09-02)
 
 ### Changed
