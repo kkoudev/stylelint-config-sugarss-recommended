@@ -1,3 +1,14 @@
+# 2.0.0 (2019-05-31)
+
+### Changed
+
+-   Support for stylelint v10.x.
+-   Upgrade versions of all dependences.
+
+### Fixed
+
+-   Lint issues for tests.
+
 # 1.3.0 (2019-01-04)
 
 ### Changed
