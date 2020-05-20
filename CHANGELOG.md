@@ -1,3 +1,10 @@
+# 2.1.0 (2020-05-20)
+
+### Changed
+
+-   Upgrade versions of all dependencies.
+-   Disable "max-line-length" rules.
+
 # 2.0.0 (2019-05-31)
 
 ### Changed

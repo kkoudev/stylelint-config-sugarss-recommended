@@ -213,7 +213,7 @@ module.exports = {
     // General / Sheet
     "indentation": 2,
     "max-empty-lines": null,
-    "max-line-length": 120,
+    "max-line-length": null,
     "max-nesting-depth": 6,
     "no-descending-specificity": null,
     "no-duplicate-selectors": null,
