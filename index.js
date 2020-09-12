@@ -18,7 +18,7 @@ module.exports = {
     "font-weight-notation": "named-where-possible",
 
     // Function
-    "function-blacklist": null,
+    "function-disallowed-list": null,
     "function-calc-no-unspaced-operator": true,
     "function-comma-newline-after": "always-multi-line",
     "function-comma-newline-before": "never-multi-line",
@@ -31,12 +31,12 @@ module.exports = {
     "function-parentheses-space-inside": "never-single-line",
     "function-url-no-scheme-relative": null,
     "function-url-quotes": "always",
-    "function-url-scheme-whitelist": [
+    "function-url-scheme-allowed-list": [
       "http",
       "https",
       "data"
     ],
-    "function-whitelist": null,
+    "function-allowed-list": null,
     "function-whitespace-after": "always",
 
     // Number
@@ -55,7 +55,7 @@ module.exports = {
     "time-min-milliseconds": 100,
 
     // Unit
-    "unit-blacklist": null,
+    "unit-disallowed-list": null,
     "unit-case": "lower",
     "unit-no-unknown": [
       true,
@@ -63,7 +63,7 @@ module.exports = {
         "ignoreFunctions": ["image-set"]
       }
     ],
-    "unit-whitelist": null,
+    "unit-allowed-list": null,
 
     // Value
     "value-keyword-case": "lower",
@@ -84,11 +84,11 @@ module.exports = {
     "shorthand-property-no-redundant-values": true,
 
     // Property
-    "property-blacklist": null,
+    "property-disallowed-list": null,
     "property-case": "lower",
     "property-no-unknown": true,
     "property-no-vendor-prefix": null,
-    "property-whitelist": null,
+    "property-allowed-list": null,
 
     // Keyframe declaration
     "keyframe-declaration-no-important": true,
@@ -100,10 +100,10 @@ module.exports = {
     "declaration-colon-space-after": "always-single-line",
     "declaration-colon-space-before": "never",
     "declaration-no-important": true,
-    "declaration-property-unit-blacklist": null,
-    "declaration-property-unit-whitelist": null,
-    "declaration-property-value-blacklist": null,
-    "declaration-property-value-whitelist": null,
+    "declaration-property-unit-disallowed-list": null,
+    "declaration-property-unit-allowed-list": null,
+    "declaration-property-value-disallowed-list": null,
+    "declaration-property-value-allowed-list": null,
 
     // Declaration block
     "declaration-block-no-duplicate-properties": null,
@@ -130,10 +130,10 @@ module.exports = {
 
     // Selector
     "selector-attribute-brackets-space-inside": "never",
-    "selector-attribute-operator-blacklist": null,
+    "selector-attribute-operator-disallowed-list": null,
     "selector-attribute-operator-space-after": "never",
     "selector-attribute-operator-space-before": "never",
-    "selector-attribute-operator-whitelist": null,
+    "selector-attribute-operator-allowed-list": null,
     "selector-attribute-quotes": null,
     "selector-class-pattern": null,
     "selector-combinator-space-after": "always",
@@ -151,11 +151,11 @@ module.exports = {
     "selector-max-universal": null,
     "selector-nested-pattern": null,
     "selector-no-vendor-prefix": null,
-    "selector-pseudo-class-blacklist": null,
+    "selector-pseudo-class-disallowed-list": null,
     "selector-pseudo-class-case": "lower",
     "selector-pseudo-class-no-unknown": true,
     "selector-pseudo-class-parentheses-space-inside": "never",
-    "selector-pseudo-class-whitelist": null,
+    "selector-pseudo-class-allowed-list": null,
     "selector-pseudo-element-case": "lower",
     "selector-pseudo-element-colon-notation": "double",
     "selector-pseudo-element-no-unknown": true,
@@ -174,11 +174,11 @@ module.exports = {
     // Media feature
     "media-feature-colon-space-after": "always",
     "media-feature-colon-space-before": "never",
-    "media-feature-name-blacklist": null,
+    "media-feature-name-disallowed-list": null,
     "media-feature-name-case": "lower",
     "media-feature-name-no-unknown": true,
     "media-feature-name-no-vendor-prefix": null,
-    "media-feature-name-whitelist": null,
+    "media-feature-name-allowed-list": null,
     "media-feature-parentheses-space-inside": "never",
     "media-feature-range-operator-space-after": "always",
     "media-feature-range-operator-space-before": "always",
@@ -193,7 +193,7 @@ module.exports = {
     "media-query-list-comma-space-before": "never",
 
     // At rule
-    "at-rule-blacklist": null,
+    "at-rule-disallowed-list": null,
     "at-rule-empty-line-before": null,
     "at-rule-name-case": "lower",
     "at-rule-name-newline-after": null,
@@ -202,13 +202,13 @@ module.exports = {
     "at-rule-no-vendor-prefix": null,
     "at-rule-semicolon-newline-after": null,
     "at-rule-semicolon-space-before": "never",
-    "at-rule-whitelist": null,
+    "at-rule-allowed-list": null,
 
     // Comment
     "comment-empty-line-before": null,
     "comment-no-empty": true,
     "comment-whitespace-inside": "always",
-    "comment-word-blacklist": null,
+    "comment-word-disallowed-list": null,
 
     // General / Sheet
     "indentation": 2,
